@@ -24,6 +24,23 @@ body {
   overflow-y: auto;
 }
 /* Layout */
+
+.main-sidebar-ar {
+  top: 0;
+  padding-top: 50px;
+  width: 230px;
+  z-index: 810;
+  -webkit-transition: -webkit-transform 0.3s ease-in-out, width 0.3s ease-in-out;
+  -moz-transition: -moz-transform 0.3s ease-in-out, width 0.3s ease-in-out;
+  -o-transition: -o-transform 0.3s ease-in-out, width 0.3s ease-in-out;
+  transition: transform 0.3s ease-in-out, width 0.3s ease-in-out;
+  min-height: unset !important;
+  max-height: 100vh !important;
+  overflow-y: auto !important;
+  position: fixed !important;
+  right: 0;
+}
+
 .wrapper {
   height: 100%;
   position: relative;
