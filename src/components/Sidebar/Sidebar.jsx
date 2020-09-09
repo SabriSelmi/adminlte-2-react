@@ -79,7 +79,7 @@ class Sidebar extends Component {
       }
     }
     return (
-      <aside className="main-sidebar">
+      <aside className="main-sidebar-ar">
         <section className="sidebar">
           <ul className="sidebar-menu" data-widget="tree" ref={(c) => { this.widgetReference = c; }}>
             {localChildren}
